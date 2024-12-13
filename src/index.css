@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#buttonOne:hover{
+    background: #000;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+#buttonTwo:hover{
+    border-radius: 5vw;
+    transition: ease-out 1.5s;
+}
+#curvedEdge:hover{
+    border-radius: 9vw;
+    transition: all ease 0.5s;
+
+}
+#curvedEdge:hover>#curvedEdgeimg{
+    scale: 1.1;
+    transition:  all ease-in-out 0.5s;
+}
+
+#curvedEdge:hover>#innerDiv{
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+}
+
+#component:hover>#PageSevenDiv{
+    border-radius: 4vw;
+    transition: all ease-in-out 0.4s;
+}
+#component:hover> #helyoo{
+    border-radius: 4vw;
+    transition: all ease-in-out 0.4s;
+}
+#smile{
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.svg{
+    color: white;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
