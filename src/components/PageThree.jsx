@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonTwo from "./ButtonTwo";
 
 const PageThree = () => {
   return (
@@ -13,7 +12,6 @@ const PageThree = () => {
         een niet te negeren <br />
         aantrekkingskracht. Raak en verbind jouw doelgroepen als nooit tevoren!
       </h1>
-      <ButtonTwo modif="bg-white" text="Leer ons kennen --"/>
     </div>
   );
 };
