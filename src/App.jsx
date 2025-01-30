@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import PageTwo from "./components/PageTwo"
-import PageThree from './components/pageThree'
 import PageFour from './components/PageFour'
 import PageFive from './components/PageFive'
 import PageSix from './components/PageSix'
@@ -11,12 +10,13 @@ import PageEight from './components/PageEight'
 import PageNine from './components/PageNine'
 import PageTen from './components/PageTen'
 import PageEleven from './components/PageEleven'
+import ThreePage from './components/ThreePage'
 const App = () => {
   return (
     <div>
         <Header/>
         <PageTwo/>
-        <PageThree/>
+        <ThreePage/>
         <PageFour/>
         <PageFive/>
         <PageSix/>

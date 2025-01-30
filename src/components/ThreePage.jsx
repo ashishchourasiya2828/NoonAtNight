@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const PageThree = () => {
+const ThreePage = () => {
   return (
-    <div className="h-[50vh] py-10 w-full bg-[#E4E4E4] px-10">
+    <div>
+           <div className="h-[50vh] py-10 w-full bg-[#E4E4E4] px-10">
       <h1 className="text-black text-2xl mb-[2vw] font-medium ">
         NiceAtNoon is een fijnschalige design studio voor merken die de hoofden
         en de harten van hun publiek willen <br />
@@ -13,7 +14,12 @@ const PageThree = () => {
         aantrekkingskracht. Raak en verbind jouw doelgroepen als nooit tevoren!
       </h1>
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default PageThree;
+export default ThreePage
+
+
+
+
